@@ -1,0 +1,29 @@
+{
+  "name": "friendly-tours",
+  "version": "1.0.0",
+  "description": "Friendly tours is a webpage for a travel company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GHOST-Aram/Friendly-tours.git"
+  },
+  "keywords": [],
+  "author": "ghost-aram <owinoojala254@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GHOST-Aram/Friendly-tours/issues"
+  },
+  "homepage": "https://github.com/GHOST-Aram/Friendly-tours#readme",
+  "dependencies": {
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
