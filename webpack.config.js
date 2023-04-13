@@ -14,9 +14,9 @@ module.exports = {
     devtool: 'inline-source-map',
     entry: {
         bundle: './src/scripts/index.js',
-        assetModuleFileName: '[name][ext]'
+        // assetModuleFileName: '[name][ext]'
     },
-    mode: 'production',
+    mode: 'development',
     module: {
         rules: [
             {
